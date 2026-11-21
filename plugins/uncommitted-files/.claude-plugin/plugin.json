@@ -1,0 +1,9 @@
+{
+  "name": "uncommitted-files",
+  "version": "0.1.0",
+  "description": "A side pane listing the git files in this session's project that are not committed yet",
+  "author": { "name": "vidi42" },
+  "repository": "https://github.com/vidi42/ai-stuff",
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

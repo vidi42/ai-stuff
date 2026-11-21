@@ -1,0 +1,12 @@
+{
+  "name": "ai-stuff",
+  "owner": { "name": "vidi42" },
+  "description": "Small Claude Code mods by vidi42",
+  "plugins": [
+    {
+      "name": "uncommitted-files",
+      "source": "./plugins/uncommitted-files",
+      "description": "A side pane listing the git files in the session's project that are not committed yet"
+    }
+  ]
+}
