@@ -1,0 +1,23 @@
+{
+  "name": "git-things",
+  "version": "1.0.0",
+  "description": "A Git pane like VS Code's Source Control: stage, commit (with a generated message), branches, sync, history, stash and compare, with inline diffs",
+  "author": { "name": "vidi42" },
+  "repository": "https://github.com/vidi42/ai-stuff",
+  "license": "MIT",
+  "types": "./types/index.d.ts",
+  "userConfig": {
+    "openWith": {
+      "type": "string",
+      "title": "Open files with",
+      "description": "The command that opens a file from the pane, the file's path added last (e.g. \"code -g\", \"idea\"). Empty opens it in the system's default app.",
+      "default": ""
+    },
+    "generateModel": {
+      "type": "string",
+      "title": "Commit message model",
+      "description": "The model ✨ Generate asks for a commit message: an alias (haiku, sonnet) or a full model id.",
+      "default": "haiku"
+    }
+  }
+}

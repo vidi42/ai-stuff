@@ -4,9 +4,9 @@
   "description": "Small Claude Code mods by vidi42",
   "plugins": [
     {
-      "name": "uncommitted-files",
-      "source": "./plugins/uncommitted-files",
-      "description": "A side pane listing the git files in the session's project that are not committed yet"
+      "name": "git-things",
+      "source": "./plugins/git-things",
+      "description": "A Git pane like VS Code Source Control: stage, commit, branches, sync, history, stash and compare"
     }
   ]
 }
